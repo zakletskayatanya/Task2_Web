@@ -19,9 +19,6 @@ public:
     ~Widget();
 
 protected:
-    /* Определяем виртуальный метод родительского класса
-     * для отрисовки содержимого виджета
-     * */
     void paintEvent(QPaintEvent *event);
     void mousePressEvent(QMouseEvent *event);
     void mouseMoveEvent(QMouseEvent *event);
